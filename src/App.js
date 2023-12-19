@@ -16,9 +16,7 @@ function App() {
   return (
     <div className="App">
       <NavBar
-        onSearch={handleSearch}
-       
-      />
+        onSearch={handleSearch} />
       <Image />
       <div className="movies">
         <Movies searchTerm={searchTerm} />
